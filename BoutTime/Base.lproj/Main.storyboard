@@ -246,10 +246,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Over View Controller-->
         <scene sceneID="dML-0B-rNR">
             <objects>
-                <viewController id="GNh-LN-3Pm" sceneMemberID="viewController">
+                <viewController id="GNh-LN-3Pm" customClass="GameOverViewController" customModule="BoutTime" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YVW-59-n5G"/>
                         <viewControllerLayoutGuide type="bottom" id="hWn-kD-Yj4"/>
