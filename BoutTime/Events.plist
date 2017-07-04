@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Events.plist
+   BoutTime
+
+   Created by Gerardo Zayas on 7/3/17.
+   Copyright (c) 2017 Little Yerri. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Star Trek (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1966</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series</string>
+        </dict>
+        <key>Star Wars: Episode IV – A New Hope</key>
+        <dict>
+            <key>year</key>
+            <integer>1977</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars_(film)</string>
+        </dict>
+        <key>Star Wars Holiday Special (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1978</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars_Holiday_Special</string>
+        </dict>
+        <key>Star Trek: The Motion Picture</key>
+        <dict>
+            <key>year</key>
+            <integer>1979</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_The_Motion_Picture</string>
+        </dict>
+        <key>Star Wars: Episode V – The Empire Strikes Back</key>
+        <dict>
+            <key>year</key>
+            <integer>1980</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/The_Empire_Strikes_Back</string>
+        </dict>
+        <key>Star Trek II: The Wrath of Khan</key>
+        <dict>
+            <key>year</key>
+            <integer>1982</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_II:_The_Wrath_of_Khan</string>
+        </dict>
+        <key>Star Wars: Episode VI – Return of the Jedi</key>
+        <dict>
+            <key>year</key>
+            <integer>1983</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Return_of_the_Jedi</string>
+        </dict>
+        <key>Star Trek III: The Search for Spock</key>
+        <dict>
+            <key>year</key>
+            <integer>1984</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_III:_The_Search_for_Spock</string>
+        </dict>
+        <key>Star Wars: Droids (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1985</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Droids</string>
+        </dict>
+        <key>Star Wars: Ewoks (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1985</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Ewoks</string>
+        </dict>
+        <key>Star Trek IV: The Voyage Home</key>
+        <dict>
+            <key>year</key>
+            <integer>1986</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_IV:_The_Voyage_Home</string>
+        </dict>
+        <key>Star Trek: The Next Generation (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1987</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation</string>
+        </dict>
+        <key>Star Trek V: The Final Frontier</key>
+        <dict>
+            <key>year</key>
+            <integer>1989</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_V:_The_Final_Frontier</string>
+        </dict>
+        <key>Star Trek VI: The Undiscovered Country</key>
+        <dict>
+            <key>year</key>
+            <integer>1991</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_VI:_The_Undiscovered_Country</string>
+        </dict>
+        <key>Star Trek: Deep Space Nine (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>1993</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine</string>
+        </dict>
+        <key>Star Trek Generations</key>
+        <dict>
+            <key>year</key>
+            <integer>1994</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_Generations</string>
+        </dict>
+        <key>Star Trek: Voyager</key>
+        <dict>
+            <key>year</key>
+            <integer>1995</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_Voyager</string>
+        </dict>
+        <key>Star Trek: First Contact</key>
+        <dict>
+            <key>year</key>
+            <integer>1996</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_First_Contact</string>
+        </dict>
+        <key>Star Trek: Insurrection</key>
+        <dict>
+            <key>year</key>
+            <integer>1998</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_Insurrection</string>
+        </dict>
+        <key>Star Wars: Episode I – The Phantom Menace</key>
+        <dict>
+            <key>year</key>
+            <integer>1999</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_–_The_Phantom_Menace</string>
+        </dict>
+        <key>Star Trek: Enterprise (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>2001</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_Enterprise</string>
+        </dict>
+        <key>Star Wars: Episode II – Attack of the Clones</key>
+        <dict>
+            <key>year</key>
+            <integer>2002</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_–_Attack_of_the_Clones</string>
+        </dict>
+        <key>Star Trek: Nemesis</key>
+        <dict>
+            <key>year</key>
+            <integer>2002</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek:_Nemesis</string>
+        </dict>
+        <key>Star Wars: Clone Wars (TV-2D)</key>
+        <dict>
+            <key>year</key>
+            <integer>2003</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Clone_Wars_(2003_TV_series)</string>
+        </dict>
+        <key>Star Wars: Episode III – Revenge of the Sith</key>
+        <dict>
+            <key>year</key>
+            <integer>2005</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_Episode_III_–_Revenge_of_the_Sith</string>
+        </dict>
+        <key>Star Wars: The Clone Wars</key>
+        <dict>
+            <key>year</key>
+            <integer>2008</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars_(film)</string>
+        </dict>
+        <key>Star Wars: The Clone Wars (TV)</key>
+        <dict>
+            <key>year</key>
+            <integer>2008</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars_(2008_TV_series)</string>
+        </dict>
+        <key>Star Trek</key>
+        <dict>
+            <key>year</key>
+            <integer>2009</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_(film)</string>
+        </dict>
+        <key>Star Trek Into Darkness</key>
+        <dict>
+            <key>year</key>
+            <integer>2013</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_Into_Darkness</string>
+        </dict>
+        <key>Star Wars Rebels</key>
+        <dict>
+            <key>year</key>
+            <integer>2014</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars_Rebels</string>
+        </dict>
+        <key>Star Wars: Episode VII – The Force Awakens</key>
+        <dict>
+            <key>year</key>
+            <integer>2015</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens</string>
+        </dict>
+        <key>Star Trek Beyond</key>
+        <dict>
+            <key>year</key>
+            <integer>2016</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Star_Trek_Beyond</string>
+        </dict>
+        <key>Rogue One: A Star Wars Story</key>
+        <dict>
+            <key>year</key>
+            <integer>2016</integer>
+            <key>url</key>
+            <string>https://en.wikipedia.org/wiki/Rogue_One</string>
+        </dict>
+    </dict>
+</plist>
+
+
+
+
+
+
+
+
+
