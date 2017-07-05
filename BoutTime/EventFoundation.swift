@@ -31,6 +31,11 @@ protocol Game {
     func checkOrder(of event: [Content]) -> Bool
 }
 
+// Delegate to conform View Controller.
+protocol GameOverDelegate {
+    func playAgain(_ playAgain: Bool)
+}
+
 // MARK: Structs
 
 // Stores event conten.
