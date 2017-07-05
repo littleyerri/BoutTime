@@ -14,6 +14,7 @@
 		42679C461F0B2A35004B3431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42679C441F0B2A35004B3431 /* LaunchScreen.storyboard */; };
 		42679C4E1F0B2AF0004B3431 /* Events.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42679C4D1F0B2AF0004B3431 /* Events.plist */; };
 		42679C501F0C43AE004B3431 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42679C4F1F0C43AE004B3431 /* GameOverViewController.swift */; };
+		4AA99C2D1F0D156E006A1FA9 /* EventFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA99C2C1F0D156E006A1FA9 /* EventFoundation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		42679C471F0B2A35004B3431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42679C4D1F0B2AF0004B3431 /* Events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Events.plist; sourceTree = "<group>"; };
 		42679C4F1F0C43AE004B3431 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		4AA99C2C1F0D156E006A1FA9 /* EventFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventFoundation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				42679C3B1F0B2A35004B3431 /* AppDelegate.swift */,
 				42679C3D1F0B2A35004B3431 /* ViewController.swift */,
 				42679C4F1F0C43AE004B3431 /* GameOverViewController.swift */,
+				4AA99C2C1F0D156E006A1FA9 /* EventFoundation.swift */,
 				42679C3F1F0B2A35004B3431 /* Main.storyboard */,
 				42679C421F0B2A35004B3431 /* Assets.xcassets */,
 				42679C441F0B2A35004B3431 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA99C2D1F0D156E006A1FA9 /* EventFoundation.swift in Sources */,
 				42679C3E1F0B2A35004B3431 /* ViewController.swift in Sources */,
 				42679C3C1F0B2A35004B3431 /* AppDelegate.swift in Sources */,
 				42679C501F0C43AE004B3431 /* GameOverViewController.swift in Sources */,
@@ -310,6 +314,7 @@
 				42679C4C1F0B2A35004B3431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
