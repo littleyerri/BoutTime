@@ -33,7 +33,7 @@ protocol Game {
 
 // Delegate to conform View Controller.
 protocol GameOverDelegate {
-    func playAgain(_ playAgain: Bool)
+    func playAgainPressed(_ playAgain: Bool)
 }
 
 // MARK: Structs

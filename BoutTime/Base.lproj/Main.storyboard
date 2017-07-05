@@ -303,6 +303,9 @@
                                     <constraint firstAttribute="height" constant="49" id="ZFg-h8-csa"/>
                                 </constraints>
                                 <state key="normal" image="play_again"/>
+                                <connections>
+                                    <action selector="playAgainButton:" destination="GNh-LN-3Pm" eventType="touchUpInside" id="Rkh-Nu-u4E"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLa-ak-XyO">
                                 <rect key="frame" x="137" y="216" width="100" height="21.5"/>
@@ -329,6 +332,9 @@
                             <constraint firstItem="yug-yO-UYS" firstAttribute="top" secondItem="iLa-ak-XyO" secondAttribute="bottom" constant="8" id="wLZ-UU-dst"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="yug-yO-UYS" id="gOS-E8-pP9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qa-Pn-6j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

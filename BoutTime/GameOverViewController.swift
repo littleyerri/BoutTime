@@ -10,10 +10,22 @@ import UIKit
 
 class GameOverViewController: UIViewController {
 
+    @IBOutlet weak var scoreLabel: UILabel!
+    
+    @IBAction func playAgainButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+        delegate.playAgainPressed(true)
+    }
+    
+    var delegate: GameOverDelegate! = nil
+    var score:    Int = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        scoreLabel.text = "\(score)/6"
     }
 
     override func didReceiveMemoryWarning() {
