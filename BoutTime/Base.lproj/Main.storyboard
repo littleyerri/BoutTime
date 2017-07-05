@@ -215,12 +215,20 @@
                                     <constraint firstAttribute="width" constant="195" id="bUn-oa-8nR"/>
                                 </constraints>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UN-K2-LEQ">
+                                <rect key="frame" x="90" y="557" width="195" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8sO-WB-b8t"/>
+                                    <constraint firstAttribute="width" constant="195" id="aWC-tB-DZa"/>
+                                </constraints>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16470588235294117" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iaI-Ow-3pd" firstAttribute="top" secondItem="XfL-4o-91C" secondAttribute="bottom" constant="8" id="2zh-Zl-ZU7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="M2a-5b-zY1" secondAttribute="trailing" constant="10" id="3Rf-ok-Xqk"/>
                             <constraint firstItem="dY3-0T-6XL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="99J-gZ-reL"/>
+                            <constraint firstItem="iaI-Ow-3pd" firstAttribute="top" secondItem="4UN-K2-LEQ" secondAttribute="bottom" constant="15" id="AOe-h0-cjR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IfL-Un-GT6" secondAttribute="trailing" constant="10" id="CpX-wv-4H7"/>
                             <constraint firstItem="iaI-Ow-3pd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31" id="Dcz-33-FSE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SVk-7T-VfO" secondAttribute="trailing" constant="10" id="FYA-qG-gty"/>
@@ -228,6 +236,8 @@
                             <constraint firstItem="IfL-Un-GT6" firstAttribute="top" secondItem="M2a-5b-zY1" secondAttribute="bottom" constant="8" id="KgM-gQ-cLs"/>
                             <constraint firstAttribute="trailing" secondItem="81T-bo-aYN" secondAttribute="trailing" constant="90" id="P0a-pg-rm5"/>
                             <constraint firstItem="SVk-7T-VfO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="PcW-8e-p4b"/>
+                            <constraint firstAttribute="trailing" secondItem="4UN-K2-LEQ" secondAttribute="trailing" constant="90" id="QuQ-q9-bWQ"/>
+                            <constraint firstItem="4UN-K2-LEQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="90" id="VDu-eg-ku8"/>
                             <constraint firstItem="dY3-0T-6XL" firstAttribute="top" secondItem="SVk-7T-VfO" secondAttribute="bottom" constant="8" id="Zqu-jE-aZy"/>
                             <constraint firstItem="M2a-5b-zY1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="bV6-bm-5f3"/>
                             <constraint firstItem="SVk-7T-VfO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="dOx-nj-Zvd"/>
@@ -241,6 +251,22 @@
                             <constraint firstAttribute="trailingMargin" secondItem="XfL-4o-91C" secondAttribute="trailing" constant="95" id="ukN-Cq-6sh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="countdown" destination="XfL-4o-91C" id="VF8-4r-vCL"/>
+                        <outlet property="firstEvent" destination="gc8-VB-0lA" id="VRe-Ke-Hq4"/>
+                        <outlet property="firstEventDown" destination="HFY-VA-jr7" id="ITI-19-jge"/>
+                        <outlet property="fourthEvent" destination="kUS-F3-D8u" id="7D4-zH-t0n"/>
+                        <outlet property="fourthEventUp" destination="1tJ-l3-9ta" id="yqv-tx-a5t"/>
+                        <outlet property="message" destination="iaI-Ow-3pd" id="CZk-22-OXO"/>
+                        <outlet property="nextRoundFail" destination="4UN-K2-LEQ" id="1yQ-r4-j9s"/>
+                        <outlet property="nextRoundSucess" destination="81T-bo-aYN" id="ufI-ud-wLB"/>
+                        <outlet property="secondEvent" destination="Qdh-fs-G1K" id="aT6-iO-s8T"/>
+                        <outlet property="secondEventDown" destination="gdg-7C-sLh" id="1u9-Cs-C2s"/>
+                        <outlet property="secondEventUp" destination="P4b-LE-HEl" id="nRh-Fg-Ye2"/>
+                        <outlet property="thirdEvent" destination="RMK-BU-2qY" id="mim-9X-Id8"/>
+                        <outlet property="thirdEventDown" destination="DHO-Vq-auQ" id="k1X-Qk-82f"/>
+                        <outlet property="thirdEventUp" destination="ANE-vx-BHm" id="D06-cx-Fbq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -304,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qa-Pn-6j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="139"/>
+            <point key="canvasLocation" x="804" y="139"/>
         </scene>
     </scenes>
     <resources>
