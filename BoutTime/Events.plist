@@ -19,7 +19,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode IV – A New Hope</string>
+            <string>Star Wars: Episode IV: A New Hope</string>
             <key>year</key>
             <integer>1977</integer>
             <key>url</key>
@@ -43,7 +43,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode V – The Empire Strikes Back</string>
+            <string>Star Wars: Episode V: The Empire Strikes Back</string>
             <key>year</key>
             <integer>1980</integer>
             <key>url</key>
@@ -59,7 +59,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode VI – Return of the Jedi</string>
+            <string>Star Wars: Episode VI: Return of the Jedi</string>
             <key>year</key>
             <integer>1983</integer>
             <key>url</key>
@@ -163,7 +163,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode I – The Phantom Menace</string>
+            <string>Star Wars: Episode I: The Phantom Menace</string>
             <key>year</key>
             <integer>1999</integer>
             <key>url</key>
@@ -179,7 +179,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode II – Attack of the Clones</string>
+            <string>Star Wars: Episode II: Attack of the Clones</string>
             <key>year</key>
             <integer>2002</integer>
             <key>url</key>
@@ -203,7 +203,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode III – Revenge of the Sith</string>
+            <string>Star Wars: Episode III: Revenge of the Sith</string>
             <key>year</key>
             <integer>2005</integer>
             <key>url</key>
@@ -251,7 +251,7 @@
         </dict>
         <dict>
             <key>movie</key>
-            <string>Star Wars: Episode VII – The Force Awakens</string>
+            <string>Star Wars: Episode VII: The Force Awakens</string>
             <key>year</key>
             <integer>2015</integer>
             <key>url</key>

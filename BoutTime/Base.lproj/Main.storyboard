@@ -240,6 +240,9 @@
                                     <constraint firstAttribute="width" constant="195" id="bUn-oa-8nR"/>
                                 </constraints>
                                 <state key="normal" image="next_round_success"/>
+                                <connections>
+                                    <action selector="startNextRound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5JC-dk-eXz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UN-K2-LEQ">
                                 <rect key="frame" x="90" y="557" width="195" height="50"/>
@@ -248,6 +251,9 @@
                                     <constraint firstAttribute="width" constant="195" id="aWC-tB-DZa"/>
                                 </constraints>
                                 <state key="normal" image="next_round_fail"/>
+                                <connections>
+                                    <action selector="startNextRound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tTm-kr-jUA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.16470588235294117" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -286,7 +292,7 @@
                         <outlet property="fourthEventUp" destination="1tJ-l3-9ta" id="yqv-tx-a5t"/>
                         <outlet property="message" destination="iaI-Ow-3pd" id="CZk-22-OXO"/>
                         <outlet property="nextRoundFail" destination="4UN-K2-LEQ" id="1yQ-r4-j9s"/>
-                        <outlet property="nextRoundSucess" destination="81T-bo-aYN" id="ufI-ud-wLB"/>
+                        <outlet property="nextRoundSuccess" destination="81T-bo-aYN" id="6cV-mx-IK9"/>
                         <outlet property="secondEvent" destination="Qdh-fs-G1K" id="aT6-iO-s8T"/>
                         <outlet property="secondEventDown" destination="gdg-7C-sLh" id="1u9-Cs-C2s"/>
                         <outlet property="secondEventUp" destination="P4b-LE-HEl" id="nRh-Fg-Ye2"/>
