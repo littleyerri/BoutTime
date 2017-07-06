@@ -21,7 +21,6 @@ class GameOverViewController: UIViewController {
     var delegate: GameOverDelegate! = nil
     var score:    Int = 0
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

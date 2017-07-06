@@ -32,7 +32,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var nextRoundSucess: UIButton!
     @IBOutlet weak var nextRoundFail:   UIButton!
     
+    // MARK: IBActions
     
+    
+    // Game Set Up
+    let game: Game
+    
+    required init?(coder aDecoder: NSCoder) {
+        do {
+            let dictionaryArray = try PlistImporter.dictionary(fromFile: "Events", ofType: "plist")
+            let collection = try CollectionUnarchiver.collection(from: dictionaryArray)
+            
+            self.game = Game(collectionOfEvents: collection)
+        } catch let error {
+            fatalError("\(error)")
+        }
+        
+        super.init(coder: aDecoder)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +60,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
