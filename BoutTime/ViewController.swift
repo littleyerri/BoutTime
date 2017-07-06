@@ -34,6 +34,30 @@ class ViewController: UIViewController {
     
     // MARK: IBActions
     
+    @IBAction func moveFirstEventDown(_ sender: Any) {
+        
+    }
+    
+    @IBAction func moveSecondEventUp(_ sender: Any) {
+        
+    }
+    
+    @IBAction func moveSecondEventDown(_ sender: Any) {
+        
+    }
+    
+    @IBAction func moveThirdEventUp(_ sender: Any) {
+        
+    }
+    
+    @IBAction func moveThirdEventDown(_ sender: Any) {
+        
+    }
+    
+    @IBAction func moveFourthEventUp(_ sender: Any) {
+        
+    }
+    
     
     // Game Set Up
     let game: Game
@@ -51,9 +75,23 @@ class ViewController: UIViewController {
         super.init(coder: aDecoder)
     }
     
+    func nextRound() {
+        // FIXME: Add logic.
+    }
+    
+    func endRound(answer: Bool) {
+        // FIXME: Add logic.
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Hide next buttons
+        nextRoundSucess.isHidden = true
+        nextRoundFail.isHidden   = true
+        
+        nextRound()
     }
 
     override func didReceiveMemoryWarning() {

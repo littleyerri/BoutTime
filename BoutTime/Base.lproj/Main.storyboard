@@ -43,6 +43,11 @@
                                             <constraint firstAttribute="width" constant="41" id="XSz-dS-dMI"/>
                                         </constraints>
                                         <state key="normal" image="down_full"/>
+                                        <state key="selected" image="down_half"/>
+                                        <state key="highlighted" image="down_full_selected"/>
+                                        <connections>
+                                            <action selector="moveFirstEventDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jf8-37-xLv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,6 +73,10 @@
                                             <constraint firstAttribute="width" constant="41" id="dmM-wk-fcT"/>
                                         </constraints>
                                         <state key="normal" image="up_half"/>
+                                        <state key="highlighted" image="up_half_selected"/>
+                                        <connections>
+                                            <action selector="moveSecondEventUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vlW-5r-ulo"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdh-fs-G1K">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -87,6 +96,10 @@
                                             <constraint firstAttribute="height" constant="60" id="tWR-WU-APH"/>
                                         </constraints>
                                         <state key="normal" image="down_half"/>
+                                        <state key="highlighted" image="down_half_selected"/>
+                                        <connections>
+                                            <action selector="moveSecondEventDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sao-6S-9IU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,6 +128,10 @@
                                             <constraint firstAttribute="width" constant="41" id="ecO-ov-Buf"/>
                                         </constraints>
                                         <state key="normal" image="up_half"/>
+                                        <state key="highlighted" image="up_half_selected"/>
+                                        <connections>
+                                            <action selector="moveThirdEventUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JrW-fV-we5"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMK-BU-2qY">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -134,6 +151,10 @@
                                             <constraint firstAttribute="height" constant="60" id="CUA-IK-iZi"/>
                                         </constraints>
                                         <state key="normal" image="down_half"/>
+                                        <state key="highlighted" image="down_half_selected"/>
+                                        <connections>
+                                            <action selector="moveThirdEventDown:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYn-mh-14W"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -162,6 +183,10 @@
                                             <constraint firstAttribute="height" constant="120" id="ZAz-42-grl"/>
                                         </constraints>
                                         <state key="normal" image="up_full"/>
+                                        <state key="highlighted" image="up_full_selected"/>
+                                        <connections>
+                                            <action selector="moveFourthEventUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMZ-92-kuM"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUS-F3-D8u">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -343,11 +368,15 @@
     </scenes>
     <resources>
         <image name="down_full" width="79" height="228"/>
+        <image name="down_full_selected" width="79" height="228"/>
         <image name="down_half" width="79" height="114"/>
+        <image name="down_half_selected" width="79" height="114"/>
         <image name="next_round_fail" width="279" height="71"/>
         <image name="next_round_success" width="279" height="71"/>
         <image name="play_again" width="225" height="71"/>
         <image name="up_full" width="79" height="228"/>
+        <image name="up_full_selected" width="79" height="228"/>
         <image name="up_half" width="79" height="114"/>
+        <image name="up_half_selected" width="79" height="114"/>
     </resources>
 </document>
