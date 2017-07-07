@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,GameOverDelegate {
+class ViewController: UIViewController, GameOverDelegate {
 
     // MARK: IBOulets
     
@@ -158,6 +158,25 @@ class ViewController: UIViewController,GameOverDelegate {
         
         // Display tap events message.
         message.text = "Tap Events To Learn More"
+    }
+    
+    // Check for shake motion
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            endRound(answer: game.checkOrder(of: events))
+        }
+    }
+    
+    // Prepare for game over seque
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "GameOverSegue" {
+            if let destination = segue.destination as? GameOverViewController {
+                if let score = sender as? Int {
+                    destination.score    = score
+                    destination.delegate = self
+                }
+            }
+        }
     }
     
     // Ticker method for timer
