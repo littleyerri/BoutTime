@@ -112,7 +112,7 @@ class ViewController: UIViewController, GameOverDelegate {
         guard game.rounds != game.numberOfRounds else {
             timer?.invalidate()
             
-            performSegue(withIdentifier: "GameOverSeque", sender: game.points)
+            performSegue(withIdentifier: "GameOverSegue", sender: game.points)
             
             return
         }
@@ -167,7 +167,7 @@ class ViewController: UIViewController, GameOverDelegate {
         }
     }
     
-    // Prepare for game over seque
+    // Prepare for game over segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "GameOverSegue" {
             if let destination = segue.destination as? GameOverViewController {
