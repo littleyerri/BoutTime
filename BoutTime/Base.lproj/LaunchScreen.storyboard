@@ -31,9 +31,8 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.1647058824" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="bGp-IN-B8P" secondAttribute="trailing" constant="73" id="jFF-uK-rrW"/>
-                            <constraint firstItem="bGp-IN-B8P" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="210" id="ked-Sv-24y"/>
-                            <constraint firstItem="bGp-IN-B8P" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="73" id="wwg-KL-Jdp"/>
+                            <constraint firstItem="bGp-IN-B8P" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Mfj-3z-HHL"/>
+                            <constraint firstItem="bGp-IN-B8P" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rPK-pj-bQr"/>
                         </constraints>
                     </view>
                 </viewController>
