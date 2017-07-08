@@ -127,6 +127,7 @@ class ViewController: UIViewController, GameOverDelegate {
         fourthEvent.text = events[3].event
     }
     
+    // Sets up the next round.
     func nextRound() {
         guard game.rounds != game.numberOfRounds else {
             timer?.invalidate()
@@ -192,6 +193,7 @@ class ViewController: UIViewController, GameOverDelegate {
     
     // Prepare for game over segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Game view controller
         if segue.identifier == "GameOverSegue" {
             if let destination = segue.destination as? GameOverViewController {
                 if let score = sender as? Int {
@@ -201,6 +203,7 @@ class ViewController: UIViewController, GameOverDelegate {
             }
         }
         
+        // Web view view controller
         if segue.identifier == "WebViewSegue" {
             if let destination = segue.destination as? WebViewViewController {
                 if let link = sender as? String {
@@ -266,4 +269,12 @@ class ViewController: UIViewController, GameOverDelegate {
         // Dispose of any resources that can be recreated.
     }
 }
+
+
+
+
+
+
+
+
 

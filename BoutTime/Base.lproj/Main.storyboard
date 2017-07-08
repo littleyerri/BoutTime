@@ -364,7 +364,7 @@
                                 <rect key="frame" x="0.0" y="47" width="375" height="620"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-94-Ybm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-94-Ybm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="WCk-Kx-7SI"/>
