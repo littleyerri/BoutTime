@@ -32,6 +32,12 @@ class ViewController: UIViewController, GameOverDelegate {
     @IBOutlet weak var nextRoundSuccess: UIButton!
     @IBOutlet weak var nextRoundFail:    UIButton!
     
+    @IBOutlet weak var firstEventButton:  UIButton!
+    @IBOutlet weak var secondEventButton: UIButton!
+    @IBOutlet weak var thirdEventButton:  UIButton!
+    @IBOutlet weak var fourthEventButton: UIButton!
+    
+    
     // MARK: IBActions
     
     @IBAction func moveFirstEventDown(_ sender: Any) {
