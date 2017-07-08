@@ -30,6 +30,9 @@
                                             <constraint firstAttribute="height" constant="120" id="5gz-r3-p05"/>
                                             <constraint firstAttribute="width" constant="274" id="LDI-pF-pMQ"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="webViewEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fQx-Im-w0F"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc8-VB-0lA">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -78,6 +81,9 @@
                                             <constraint firstAttribute="height" constant="120" id="EN5-Uf-3QK"/>
                                             <constraint firstAttribute="width" constant="274" id="VxS-Ia-f0k"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="webViewEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ix8-i0-ADE"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdh-fs-G1K">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -139,6 +145,9 @@
                                             <constraint firstAttribute="height" constant="120" id="eKK-sX-B6Q"/>
                                             <constraint firstAttribute="width" constant="274" id="pAi-qe-IO2"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="webViewEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ain-JL-pT9"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMK-BU-2qY">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -200,6 +209,9 @@
                                             <constraint firstAttribute="height" constant="120" id="7g6-nu-qm4"/>
                                             <constraint firstAttribute="width" constant="274" id="ZFK-Ll-L13"/>
                                         </constraints>
+                                        <connections>
+                                            <action selector="webViewEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="22t-dt-p4U"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historic event place holder" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUS-F3-D8u">
                                         <rect key="frame" x="20" y="20" width="242" height="80"/>
@@ -348,18 +360,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iny-XI-O8R">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iny-XI-O8R">
                                 <rect key="frame" x="0.0" y="47" width="375" height="620"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-94-Ybm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-94-Ybm">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="WCk-Kx-7SI"/>
                                     <constraint firstAttribute="width" constant="375" id="Wvz-Og-PdJ"/>
                                 </constraints>
                                 <state key="normal" image="webview_bar"/>
+                                <state key="selected" image="webview_bar"/>
                                 <connections>
                                     <action selector="dismissView:" destination="Q0z-Sr-yE5" eventType="touchUpInside" id="NcO-9E-V88"/>
                                 </connections>
@@ -370,6 +382,10 @@
                             <constraint firstItem="fbn-94-Ybm" firstAttribute="leading" secondItem="gn0-fY-JDT" secondAttribute="leading" id="HHx-mS-u6w"/>
                             <constraint firstItem="fbn-94-Ybm" firstAttribute="top" secondItem="dv1-RH-c0M" secondAttribute="bottom" id="Njg-KZ-tf5"/>
                             <constraint firstAttribute="trailing" secondItem="fbn-94-Ybm" secondAttribute="trailing" id="Vdw-VF-vxY"/>
+                            <constraint firstItem="s4H-AP-oMV" firstAttribute="top" secondItem="iny-XI-O8R" secondAttribute="bottom" id="Yqb-Yb-7yN"/>
+                            <constraint firstItem="iny-XI-O8R" firstAttribute="leading" secondItem="gn0-fY-JDT" secondAttribute="leading" id="b5E-1U-YY0"/>
+                            <constraint firstAttribute="trailing" secondItem="iny-XI-O8R" secondAttribute="trailing" id="b6L-xY-z0t"/>
+                            <constraint firstItem="iny-XI-O8R" firstAttribute="top" secondItem="fbn-94-Ybm" secondAttribute="bottom" id="cD6-eU-2Oj"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

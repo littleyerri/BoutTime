@@ -15,6 +15,7 @@ import GameKit
 protocol Content {
     var event: String { get }
     var year:  Int { get }
+    var url:   String { get }
 }
 
 // Insures game functionality.
@@ -42,6 +43,7 @@ protocol GameOverDelegate {
 struct Event: Content {
     let event: String
     let year:  Int
+    let url:   String
 }
 
 // MARK: Enums
@@ -76,8 +78,8 @@ class CollectionUnarchiver {
         var collection: [Content] = []
         
         for dictionary in array {
-            if let event = dictionary["movie"] as? String, let year = dictionary["year"] as? Int {
-                let event = Event(event: event, year: year)
+            if let event = dictionary["movie"] as? String, let year = dictionary["year"] as? Int, let url = dictionary["url"] as? String {
+                let event = Event(event: event, year: year, url: url)
                 collection.append(event)
             } else {
                 print("It didn't work!")

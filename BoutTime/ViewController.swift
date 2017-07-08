@@ -37,9 +37,7 @@ class ViewController: UIViewController, GameOverDelegate {
     @IBOutlet weak var thirdEventButton:  UIButton!
     @IBOutlet weak var fourthEventButton: UIButton!
     
-    
     // MARK: IBActions
-    
     @IBAction func moveFirstEventDown(_ sender: Any) {
         let eventOne = events[0]
         let eventTwo = events[1]
@@ -88,6 +86,21 @@ class ViewController: UIViewController, GameOverDelegate {
         }
     }
     
+    @IBAction func webViewEvent(_ sender: UIButton!) {
+        switch sender {
+        case firstEventButton:
+            performSegue(withIdentifier: "WebViewSegue", sender: events[0].url)
+        case secondEventButton:
+            performSegue(withIdentifier: "WebViewSegue", sender: events[1].url)
+        case thirdEventButton:
+            performSegue(withIdentifier: "WebViewSegue", sender: events[2].url)
+        case fourthEventButton:
+            performSegue(withIdentifier: "WebViewSegue", sender: events[3].url)
+        default:
+            performSegue(withIdentifier: "WebViewSegue", sender: "https://developer.apple.com/documentation/")
+        }
+    }
+    
     // Game Set Up
     var game:   GameEvents
     var events: [Content] = []
@@ -123,6 +136,8 @@ class ViewController: UIViewController, GameOverDelegate {
             return
         }
         
+        webViewButtons(false)
+        
         events = game.randomEvents(4)
         countdown.text = "1:00"
         
@@ -156,6 +171,8 @@ class ViewController: UIViewController, GameOverDelegate {
         break
         }
         
+        webViewButtons(true)
+        
         // Hide countdown.
         countdown.isHidden = true
         
@@ -183,6 +200,14 @@ class ViewController: UIViewController, GameOverDelegate {
                 }
             }
         }
+        
+        if segue.identifier == "WebViewSegue" {
+            if let destination = segue.destination as? WebViewViewController {
+                if let link = sender as? String {
+                    destination.url = link
+                }
+            }
+        }
     }
     
     // Ticker method for timer
@@ -206,6 +231,23 @@ class ViewController: UIViewController, GameOverDelegate {
         game.rounds = 0
         
         nextRound()
+    }
+    
+    // MARK: Helper Methods
+    
+    // Enable-Disable web view buttons.
+    func webViewButtons(_ enable: Bool) {
+        if enable == true {
+            firstEventButton.isEnabled   = true
+            secondEventButton.isEnabled  = true
+            thirdEventButton.isEnabled   = true
+            fourthEventButton.isEnabled  = true
+        } else if enable == false {
+            firstEventButton.isEnabled   = false
+            secondEventButton.isEnabled  = false
+            thirdEventButton.isEnabled   = false
+            fourthEventButton.isEnabled  = false
+        }
     }
     
     override func viewDidLoad() {
